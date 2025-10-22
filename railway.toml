@@ -1,0 +1,8 @@
+[build]
+builder = "DOCKERFILE"
+
+[deploy]
+startCommand = "/opt/mssql/bin/sqlservr"
+
+[ports]
+main = 1433
